@@ -5,7 +5,7 @@ metadata :
  namespace : test-ns
 spec :
   replicas: 4
-  revisionHistoryLimit: 5
+  revisionHistoryLimit: 11
   selector:
    matchLabels:
     app: mavenwebapp
